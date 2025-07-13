@@ -4,3 +4,19 @@
 hw1_data/*
 *png
 *jpg
+# Ignore Python virtual environment
+myenv/
+venv/
+
+# Ignore data and models
+*.zip
+*.ckpt
+*.pt
+*.pth
+*.npz
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore pycache
+__pycache__/
